@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+        }
+        li {
+            background-color: aquamarine;
+        }
+        .a {
+            align-self:center ;
+        }
+        
+        .vertical {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="a">a</li>
+        <li class="b">b
+            <ul class="vertical">
+                <li>ef</li>
+                <li>de</li>
+            </ul>
+        </li>
+        <li class="c">c</li>
+        <li class="d">d</li>
+    </ul>
+</body>
+</html>
